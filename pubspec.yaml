@@ -1,0 +1,20 @@
+name: flutter_build_debian
+description: A command application to help you easily bundle your flutter app build into a debian package ready for production.
+version: 0.0.1
+homepage: https://gurwinder.me
+repository: https://github.com/47gurvinder/flutter_build_debian
+
+environment:
+  sdk: '>=2.15.0 <4.0.0'
+
+executables:
+  flutter_build_debian:
+
+dependencies:
+  args: ^2.4.2
+  mime_type: ^1.0.0
+  path: ^1.8.1
+  yaml: ^3.1.0
+
+dev_dependencies:
+  lints: ^2.1.1
